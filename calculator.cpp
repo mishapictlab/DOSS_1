@@ -66,7 +66,7 @@ int main() {
     cout << "4. Divide\n";
     cout << "5. Modulus\n";
     cout << "6. Power\n";
-    //cout << "7. Factorial\n";
+    cout << "7. Factorial\n";
     cin >> choice;
     
     switch (choice)
@@ -101,13 +101,13 @@ int main() {
     cin >> num1 >> num2;
         cout << "Result: " << power(num1, num2) << endl;
         break;
-        /*
+        
     case 7:
         cout << "Enter a number: ";
         cin >> num1;
         cout << "Result: " << factorial(num1) << endl;
         break;
-        */
+        
     default:
         cerr << "Invalid choice!" << endl;
     }
