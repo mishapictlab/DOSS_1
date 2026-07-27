@@ -38,6 +38,22 @@ int power (int a, int b) {
     return result;
 }
 
+// Adding Scientific Calculator Functions
+
+int factorial(int n) {
+    if (n < 0) {
+        cout << "Error: Factorial of negative number!" << endl;
+        return -1; // Return -1 or handle the error as needed
+    }
+    int result = 1;
+    for (int i = 1; i <= n; ++i) {
+        result *= i;
+    }
+    return result;
+}
+
+
+
 
 
 int main() {
